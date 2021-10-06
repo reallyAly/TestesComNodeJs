@@ -18,4 +18,11 @@ describe("Calc", () => {
 
 		expect(IMC.getClassificacao()).toBe("normal");
 	});
+	test("Acima do peso", () => {
+		let Pessoa2 = new Pessoa("Alysson Victor", 50, 1.40);
+
+		let IMC = Calc.calcular(Pessoa2);
+
+		expect(IMC.getClassificacao()).toBe("acima do peso");
+	});
 });
