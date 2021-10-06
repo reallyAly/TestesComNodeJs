@@ -15,9 +15,9 @@ module.exports = class Calculadora{
 
 		if(IMC < 18.5)
             classificacao = "abaixo do peso";
-        else if(imc < 25)
+        else if(IMC < 25)
             classificacao = "normal";
-        else if(imc < 30)
+        else if(IMC < 30)
             classificacao = "acima do peso";
         else 
             classificacao = "obeso";
