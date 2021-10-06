@@ -25,4 +25,11 @@ describe("Calc", () => {
 
 		expect(IMC.getClassificacao()).toBe("acima do peso");
 	});
+	test("Obeso", () => {
+		let Pessoa2 = new Pessoa("Alysson Victor", 120, 1.80);
+
+		let IMC = Calc.calcular(Pessoa2);
+
+		expect(IMC.getClassificacao()).toBe("obeso");
+	});
 });
