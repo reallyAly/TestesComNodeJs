@@ -19,16 +19,16 @@ describe("Calc", () => {
 		expect(IMC.getClassificacao()).toBe("normal");
 	});
 	test("Acima do peso", () => {
-		let Pessoa2 = new Pessoa("Alysson Victor", 50, 1.40);
+		let Pessoa3 = new Pessoa("Alysson Victor", 50, 1.40);
 
-		let IMC = Calc.calcular(Pessoa2);
+		let IMC = Calc.calcular(Pessoa3);
 
 		expect(IMC.getClassificacao()).toBe("acima do peso");
 	});
 	test("Obeso", () => {
-		let Pessoa2 = new Pessoa("Alysson Victor", 120, 1.80);
+		let Pessoa4 = new Pessoa("Alysson Victor", 120, 1.80);
 
-		let IMC = Calc.calcular(Pessoa2);
+		let IMC = Calc.calcular(Pessoa4);
 
 		expect(IMC.getClassificacao()).toBe("obeso");
 	});
