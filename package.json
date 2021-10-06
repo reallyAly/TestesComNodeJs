@@ -1,0 +1,19 @@
+{
+  "name": "testescomnodejs",
+  "version": "1.0.0",
+  "description": "Repositório criado para armazenar a atividade 2 da disciplina de Tópicos em Computação do curso de Análise de Sistemas  (UTFPR)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reallyAly/TestesComNodeJs.git"
+  },
+  "author": "Alysson Victor (ReallyAly)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reallyAly/TestesComNodeJs/issues"
+  },
+  "homepage": "https://github.com/reallyAly/TestesComNodeJs#readme"
+}
